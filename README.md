@@ -31,3 +31,7 @@ Utilisation de la fonctionnalité 'Snapshot' de VMware pour sauvegarder l'état 
 <img width="1278" height="499" alt="image" src="https://github.com/user-attachments/assets/1100555e-bb63-42ad-b55c-76f96e5c7d4a" />
 Configuration du snapshot nommé 'CLEAN_BASELINE_TP1'. La description précise que l'importation est réussie, que les interfaces réseau (NAT + HostOnly) sont opérationnelles, et que le service ADB (Android Debug Bridge) est prêt pour les tests sur terminaux mobiles. Ce point de sauvegarde garantit une réinitialisation rapide en cas d'erreur durant le lab
 
+# Étape 6 — Préparer la cible Android (choisir 1 option)
+l’outil ADB est bien installé et utilisable dans Mobexler.
+Résultats attendus:
+<img width="1025" height="335" alt="image" src="https://github.com/user-attachments/assets/589771b5-ac71-4af3-a747-80422c1e7c3d" />
