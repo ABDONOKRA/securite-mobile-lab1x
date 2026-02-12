@@ -1,4 +1,9 @@
 # securite-mobile-lab1x
+## L'objectif de ce laboratoire est de mettre en place un environnement contrôlé pour l'audit de sécurité mobile en utilisant la distribution spécialisée Mobexler. Cette plateforme regroupe l'ensemble des outils nécessaires à l'analyse statique et dynamique, ainsi qu'aux tests d'intrusion sur les applications mobiles.
+
+Dans un premier temps, nous avons procédé à la configuration et à la validation de l'infrastructure réseau. Cette étape est cruciale pour garantir que la machine d'attaque peut communiquer avec les serveurs distants, résoudre les noms de domaine (DNS) et interagir avec les terminaux cibles.
+
+Par la suite, nous avons mis en œuvre des mesures de persistance et de sécurité de l'environnement via la création de points de restauration (Snapshots). Enfin, nous avons initié la communication avec le périphérique mobile via le protocole ADB (Android Debug Bridge), étape préalable indispensable à l'extraction de données et à l'analyse du comportement applicatif en temps réel.
 <img width="1000" height="999" alt="image" src="https://github.com/user-attachments/assets/aa078533-a861-494d-a224-b221b17a91ef" />
 # Connexion à Mobexler
 Après le lancement de la machine virtuelle, on se connecte à Mobexler avec les identifiants fournis.
