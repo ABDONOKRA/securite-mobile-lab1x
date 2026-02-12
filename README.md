@@ -35,3 +35,10 @@ Configuration du snapshot nommé 'CLEAN_BASELINE_TP1'. La description précise q
 l’outil ADB est bien installé et utilisable dans Mobexler.
 Résultats attendus:
 <img width="1025" height="335" alt="image" src="https://github.com/user-attachments/assets/589771b5-ac71-4af3-a747-80422c1e7c3d" />
+# Dépannage
+unauthorized : accepter la popup RSA sur le téléphone.
+rien n’apparaît :
+vérifier USB passthrough
+relancer ADB 
+<img width="975" height="295" alt="image" src="https://github.com/user-attachments/assets/14c5476a-071d-4ab1-b741-9aa5356fcc81" />
+
