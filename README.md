@@ -7,4 +7,6 @@ Après le lancement de la machine virtuelle, on se connecte à Mobexler avec les
 # Capture d'écran de l'interface de commande affichant la configuration réseau via la commande ip a. On identifie l'interface réseau active ens33 avec l'adresse IP locale 192.168.10.129 (masque /24). Cette adresse sera utilisée comme point de terminaison pour l'écoute des connexions entrantes (Reverse Shell) ou pour la communication avec le terminal mobile dans le cadre du lab
 # Démarrage de Mobexler
 Une fois connecté, Mobexler démarre normalement et l’environnement est prêt à l’utilisation.
+<img width="1095" height="812" alt="image" src="https://github.com/user-attachments/assets/712a1369-cebc-40c4-b9ae-b3549b57b653" />
+
 
