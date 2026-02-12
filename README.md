@@ -24,3 +24,10 @@ Affichage de la table de routage IP via la commande ip route. On observe que la 
 Validation de l'accès à Internet et de la résolution réseau. La commande ping 8.8.8.8 (DNS Google) confirme que la machine dispose d'une connexion active vers l'extérieur. Les temps de réponse stables (environ 24-25 ms) garantissent que les outils de sécurité pourront télécharger des dépendances ou communiquer avec des serveurs distants si nécessaire lors de l'analyse des applications mobiles
 <img width="934" height="277" alt="image" src="https://github.com/user-attachments/assets/b9b9cebe-6d2a-405c-8e67-2f40b09f6372" />
 Validation du service de résolution de noms (DNS). La commande ping vers le nom de domaine 'https://www.google.com/url?sa=E&source=gmail&q=google.com' réussit, prouvant que la machine peut traduire les noms de domaine en adresses IP
+# Étape 5 — Créer le snapshot “CLEAN” (baseline)
+
+<img width="985" height="605" alt="image" src="https://github.com/user-attachments/assets/adbda281-ec69-45c2-bb83-d34f62fad0a3" />
+Utilisation de la fonctionnalité 'Snapshot' de VMware pour sauvegarder l'état actuel de la machine virtuelle. Cette étape de sécurité permet de figer une configuration stable (Clean Baseline) avant de manipuler des malwares mobiles ou de modifier des fichiers système critiques.
+<img width="1278" height="499" alt="image" src="https://github.com/user-attachments/assets/1100555e-bb63-42ad-b55c-76f96e5c7d4a" />
+Configuration du snapshot nommé 'CLEAN_BASELINE_TP1'. La description précise que l'importation est réussie, que les interfaces réseau (NAT + HostOnly) sont opérationnelles, et que le service ADB (Android Debug Bridge) est prêt pour les tests sur terminaux mobiles. Ce point de sauvegarde garantit une réinitialisation rapide en cas d'erreur durant le lab
+
