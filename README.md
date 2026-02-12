@@ -41,4 +41,4 @@ rien n’apparaît :
 vérifier USB passthrough
 relancer ADB 
 <img width="975" height="295" alt="image" src="https://github.com/user-attachments/assets/14c5476a-071d-4ab1-b741-9aa5356fcc81" />
-
+Réinitialisation du démon ADB (Android Debug Bridge). La commande adb kill-server suivie de adb start-server permet de s'assurer que le service de communication avec les appareils Android tourne sur une instance propre. Le terminal confirme que le démon a démarré avec succès sur le port TCP 5037
