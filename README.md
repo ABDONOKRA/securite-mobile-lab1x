@@ -15,3 +15,5 @@ Identification de l'adresse IP de l'attaquant : La commande ip address révèle 
 <img width="1000" height="999" alt="image" src="https://github.com/user-attachments/assets/82f539a7-8677-4bb6-a5a0-4a1b72a351d9" />
 # Vérifier route par défaut
 <img width="950" height="424" alt="image" src="https://github.com/user-attachments/assets/8019f49a-1f5c-4a54-801d-f1083ea64f68" />
+
+Affichage de la table de routage IP via la commande ip route. On observe que la route par défaut (default) passe par la passerelle 192.168.10.2 via l'interface ens33. On note également la présence d'une interface docker0 sur le sous-réseau 172.17.0.0/16, actuellement en état 'linkdown', ce qui indique que l'environnement Docker est configuré mais qu'aucun conteneur n'est actif sur ce segment au moment du test
