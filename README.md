@@ -13,3 +13,5 @@ Une fois connecté, Mobexler démarre normalement et l’environnement est prêt
 # Vérifier les adresses IP
 Identification de l'adresse IP de l'attaquant : La commande ip address révèle que la machine hôte utilise l'IP 192.168.10.129. Cette information est cruciale pour configurer les payloads (comme un fichier APK modifié avec MSFvenom) afin qu'ils pointent vers la bonne machine de contrôle.
 <img width="1000" height="999" alt="image" src="https://github.com/user-attachments/assets/82f539a7-8677-4bb6-a5a0-4a1b72a351d9" />
+# Vérifier route par défaut
+<img width="950" height="424" alt="image" src="https://github.com/user-attachments/assets/8019f49a-1f5c-4a54-801d-f1083ea64f68" />
