@@ -1,5 +1,6 @@
 # securite-mobile-lab1x
-## L'objectif de ce laboratoire est de mettre en place un environnement contrôlé pour l'audit de sécurité mobile en utilisant la distribution spécialisée Mobexler. Cette plateforme regroupe l'ensemble des outils nécessaires à l'analyse statique et dynamique, ainsi qu'aux tests d'intrusion sur les applications mobiles.
+## L'objectif de ce laboratoire
+est de mettre en place un environnement contrôlé pour l'audit de sécurité mobile en utilisant la distribution spécialisée Mobexler. Cette plateforme regroupe l'ensemble des outils nécessaires à l'analyse statique et dynamique, ainsi qu'aux tests d'intrusion sur les applications mobiles.
 
 Dans un premier temps, nous avons procédé à la configuration et à la validation de l'infrastructure réseau. Cette étape est cruciale pour garantir que la machine d'attaque peut communiquer avec les serveurs distants, résoudre les noms de domaine (DNS) et interagir avec les terminaux cibles.
 
@@ -9,7 +10,8 @@ Par la suite, nous avons mis en œuvre des mesures de persistance et de sécurit
 Après le lancement de la machine virtuelle, on se connecte à Mobexler avec les identifiants fournis.
 
 
-# Capture d'écran de l'interface de commande affichant la configuration réseau via la commande ip a. On identifie l'interface réseau active ens33 avec l'adresse IP locale 192.168.10.129 (masque /24). Cette adresse sera utilisée comme point de terminaison pour l'écoute des connexions entrantes (Reverse Shell) ou pour la communication avec le terminal mobile dans le cadre du lab
+# Capture d'écran de l'interface de commande
+affichant la configuration réseau via la commande ip a. On identifie l'interface réseau active ens33 avec l'adresse IP locale 192.168.10.129 (masque /24). Cette adresse sera utilisée comme point de terminaison pour l'écoute des connexions entrantes (Reverse Shell) ou pour la communication avec le terminal mobile dans le cadre du lab
 
 # Démarrage de Mobexler
 Une fois connecté, Mobexler démarre normalement et l’environnement est prêt à l’utilisation.
