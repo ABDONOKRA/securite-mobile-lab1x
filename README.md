@@ -17,3 +17,6 @@ Identification de l'adresse IP de l'attaquant : La commande ip address révèle 
 <img width="950" height="424" alt="image" src="https://github.com/user-attachments/assets/8019f49a-1f5c-4a54-801d-f1083ea64f68" />
 
 Affichage de la table de routage IP via la commande ip route. On observe que la route par défaut (default) passe par la passerelle 192.168.10.2 via l'interface ens33. On note également la présence d'une interface docker0 sur le sous-réseau 172.17.0.0/16, actuellement en état 'linkdown', ce qui indique que l'environnement Docker est configuré mais qu'aucun conteneur n'est actif sur ce segment au moment du test
+# Tester Internet
+<img width="958" height="236" alt="image" src="https://github.com/user-attachments/assets/a4df3fb5-dff8-4e15-a345-e21405e90f31" />
+Validation de l'accès à Internet et de la résolution réseau. La commande ping 8.8.8.8 (DNS Google) confirme que la machine dispose d'une connexion active vers l'extérieur. Les temps de réponse stables (environ 24-25 ms) garantissent que les outils de sécurité pourront télécharger des dépendances ou communiquer avec des serveurs distants si nécessaire lors de l'analyse des applications mobiles
